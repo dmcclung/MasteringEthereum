@@ -3,13 +3,11 @@
   "abi": [
     {
       "stateMutability": "payable",
-      "type": "fallback",
-      "payable": true
+      "type": "fallback"
     },
     {
       "stateMutability": "payable",
-      "type": "receive",
-      "payable": true
+      "type": "receive"
     },
     {
       "inputs": [
@@ -25,9 +23,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.10+commit.00c0fcaf\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"withdraw_amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Dylan/git/MasteringEthereum/contracts/Faucet.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Dylan/git/MasteringEthereum/contracts/Faucet.sol\":{\"keccak256\":\"0x5593e0778b66cb0ab0fbe4d21c7deb90a02292aff13829e3ba49b57f06051570\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://a52f75636b126518ae96e969100e1b7aa1b84573ef7579afc2675419c5d1b1b4\",\"dweb:/ipfs/QmWEdw1Am5wYaTA4xy6YqPqEupUjmriVUP5bncv3F4AKCx\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060eb8061001f6000396000f3fe608060405260043610601f5760003560e01c80632e1a7d4d146027576025565b36602557005b005b348015603257600080fd5b50605c60048036036020811015604757600080fd5b8101908080359060200190929190505050605e565b005b612710811115606c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015801560b1573d6000803e3d6000fd5b505056fea2646970667358221220fc85539ee2c2d00a0ab28342c24fc7c276712d63bcb817a8543aa07456f4f9f364736f6c634300060a0033",
-  "deployedBytecode": "0x608060405260043610601f5760003560e01c80632e1a7d4d146027576025565b36602557005b005b348015603257600080fd5b50605c60048036036020811015604757600080fd5b8101908080359060200190929190505050605e565b005b612710811115606c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015801560b1573d6000803e3d6000fd5b505056fea2646970667358221220fc85539ee2c2d00a0ab28342c24fc7c276712d63bcb817a8543aa07456f4f9f364736f6c634300060a0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.11+commit.5ef660b1\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"withdraw_amount\",\"type\":\"uint256\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/Dylan/git/MasteringEthereum/contracts/Faucet.sol\":\"Faucet\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Dylan/git/MasteringEthereum/contracts/Faucet.sol\":{\"keccak256\":\"0x5593e0778b66cb0ab0fbe4d21c7deb90a02292aff13829e3ba49b57f06051570\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://a52f75636b126518ae96e969100e1b7aa1b84573ef7579afc2675419c5d1b1b4\",\"dweb:/ipfs/QmWEdw1Am5wYaTA4xy6YqPqEupUjmriVUP5bncv3F4AKCx\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060eb8061001f6000396000f3fe608060405260043610601f5760003560e01c80632e1a7d4d146027576025565b36602557005b005b348015603257600080fd5b50605c60048036036020811015604757600080fd5b8101908080359060200190929190505050605e565b005b612710811115606c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015801560b1573d6000803e3d6000fd5b505056fea26469706673582212209f021aa662ab1c1cc4b516e5324d2d00d02e7fd8f8e56be8899d4e206fb03e3b64736f6c634300060b0033",
+  "deployedBytecode": "0x608060405260043610601f5760003560e01c80632e1a7d4d146027576025565b36602557005b005b348015603257600080fd5b50605c60048036036020811015604757600080fd5b8101908080359060200190929190505050605e565b005b612710811115606c57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015801560b1573d6000803e3d6000fd5b505056fea26469706673582212209f021aa662ab1c1cc4b516e5324d2d00d02e7fd8f8e56be8899d4e206fb03e3b64736f6c634300060b0033",
   "immutableReferences": {},
   "sourceMap": "64:253:0:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "64:253:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;89:148;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;174:5;155:15;:24;;147:33;;;;;;193:10;:19;;:36;213:15;193:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;89:148;:::o",
@@ -745,23 +743,26 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.6.10+commit.00c0fcaf.Emscripten.clang"
+    "version": "0.6.11+commit.5ef660b1.Emscripten.clang"
   },
   "networks": {
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xfA9a7F443bd7F1272A2a69EB8679A5680f2Dc43A",
-      "transactionHash": "0xb910006dfb20aabfc96f3ddaf6f4fd4095562ebe46feec583598d59c9257f2f9"
+      "address": "0x5F971BF86D6d28cCFB7e484fb979003ac89036EB",
+      "transactionHash": "0xb354109e97a66dbe543e7ad461a3aaa311ae322ae99fe801984737007ac375a0"
     }
   },
   "schemaVersion": "3.2.1",
-  "updatedAt": "2020-07-06T02:18:30.030Z",
-  "networkType": "ethereum",
+  "updatedAt": "2020-07-19T07:10:30.631Z",
   "devdoc": {
-    "methods": {}
+    "kind": "dev",
+    "methods": {},
+    "version": 1
   },
   "userdoc": {
-    "methods": {}
+    "kind": "user",
+    "methods": {},
+    "version": 1
   }
 }

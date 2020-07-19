@@ -18,7 +18,7 @@ contract("Faucet", async accounts => {
 
         await contract.withdraw(10000);
 
-        await expectBalanceToBe(contract.address, 0);        
+        await expectBalanceToBe(contract.address, 0);                
     });    
 });
 
